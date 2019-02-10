@@ -1,0 +1,72 @@
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+   width: 100%;
+}
+
+.title-zh {
+  color: #3C8ED4;
+  text-align: center;
+  margin-top: 10rpx;
+  font-weight: bold;
+}
+
+.title-en {
+  color: #FFBB00;
+  text-align: center;
+  margin-top: 5rpx;
+  font-size: 25rpx;
+}
+
+.profile-txt {
+  font-size: 35rpx;
+  margin-top: 0rpx;
+}
+
+.cmp-info {
+  margin-left: 127rpx;
+  margin-top: 20rpx;
+}
+
+.cmp-info view {
+  height: 100rpx;
+}
+
+.icon {
+  width: 56rpx;
+  height: 56rpx;
+  margin-top: 0rpx;
+}
+
+.cmp-info view image {
+  margin-top: 10rpx;
+}
+
+.service {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 310rpx;
+}
+
+.serviceindex {
+  margin:0 auto;
+}
+
+.logo-set {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.logo {
+  width: 700rpx;
+  height: 426rpx;
+  margin: 0 auto;
+}

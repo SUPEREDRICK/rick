@@ -1,0 +1,40 @@
+<!--aboutme.wxml-->
+<view>
+  <swiper class='swiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <block wx:for="{{imgUrls}}" class='swiper-image'>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='logo-set'>
+    <image src='http://i2.tiimg.com/650899/1e38361e210d707a.png' class='logo'></image>
+  </view>
+  <!-- 公司信息栏目 -->
+  <view class='title-zh'>深圳市酷达影视传媒有限公司</view>
+  <view class='title-en'>Shenzhen Kuda Film and Television Media Co., Ltd.</view>
+  <view class='cmp-info'>
+    <view>
+      <!-- <image class='icon' src='../../images/addr-icon.png' /> -->
+      <text class='profile-txt'>地址:深圳市龙华区民治街道水尾三区51栋1402室</text>
+    </view>
+    <view>
+      <!-- <image class='icon' src='../../images/phone-icon.png' /> -->
+      <text class='profile-txt'>电话:0755-2107 6895</text>
+    </view>
+    <view>
+      <!-- <image class='icon' src='../../images/mobile-icon.png' /> -->
+      <text class='profile-txt'>手机:18475525884</text>
+    </view>
+    <view>
+      <!-- <image class='icon' src='../../images/email-icon.png'/> -->
+      <text class='profile-txt'>邮箱:kuudaa@163.com</text>
+    </view>
+    
+    <!-- <image class='icon' src='../../images/wechat-icon.png'/> -->
+    <view class='serviceindex'>
+      <view class='service' bindtap='call'>微信客服</view>
+      <view class='service' bindtap='guide'>来访导航</view>
+    </view>
+  </view>
+</view>

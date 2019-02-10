@@ -1,0 +1,62 @@
+/* pages/Telephone/Telephone.wxss */
+.nav_img{
+  height: 400rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.nav_img2{
+  margin-top:5rpx;
+  margin-left: 40rpx;
+  height:55rpx;
+  width: 55rpx;
+}
+.city{
+  text-align: center;
+  color:#000;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  width: 140rpx;
+  height: 50rpx;
+  border-bottom: 2rpx solid #C0BEBF;
+}
+.city2{
+  color:#000;
+  font-size: 30rpx;
+  margin-left:43rpx;
+  margin-top: 10rpx;
+  width: 650rpx;
+  height: 50rpx;
+  border-bottom: 2rpx solid #C0BEBF;
+}
+.city3{
+  color:#000;
+  font-size: 30rpx;
+  margin-left:20rpx;
+  margin-top: 10rpx;
+  width: 580rpx;
+  height: 50rpx;
+  border-bottom: 2rpx solid #C0BEBF;
+}
+.list{
+  color: #249EDE;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.list2{
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.nav2{
+  margin-top: 20rpx;
+}
+.box{
+  font-size: 30rpx;
+  text-justify: center;
+  width: 500rpx;
+  height: 80rpx;
+  color: #F3FCF6;
+  margin-top: 60rpx;
+  background: #249EDE;
+}

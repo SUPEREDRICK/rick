@@ -1,0 +1,28 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<view>
+  <image src='../../images/cpxq.png' class='nav_img'></image>
+  <text>【{{item.prdname}}】</text>
+  <view class='list'>
+    <view class='box1'>{{item.prdtype}}</view>
+    <view class='text'>
+      <view class='text2'>¥{{item.prdprice}}</view>
+      <view class='text3'>______</view>
+      <view class='text4'>小时</view>
+    </view>
+  </view>
+  <text>【标题名称】</text>
+  <view class='text5'>
+    <text>{{item.prdcontent}}</text>
+  </view>
+  <text>【标题介绍】</text>
+  <view class='text5'>
+    <text>{{item.prdsimcontent}}</text>
+  </view>
+  <text>【标题地址】</text>
+  <view class='text5'>
+    <text>{{item.prdsimcontent}}</text>
+  </view>
+  <view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/book/book.wxml-->
+<text>pages/book/book.wxml</text>
+<text style='font-size:15px;padding:10px;'>横向滑动列表>></text>
+<scroll-view scroll-x class="scroll-x">
+  <view wx:for="{{list}}" wx:key="{{index}}" class="view-parent">
+    <view class="view-item">{{item.txt}}</view>
+  </view>
+</scroll-view>

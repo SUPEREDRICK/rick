@@ -1,0 +1,93 @@
+/* pages/Consultation/Consultation.wxss */
+.makeanappointment{
+  width: 120rpx;
+  height: 120rpx;
+  position: fixed;
+  top:970rpx;
+  left: 600rpx;
+}
+
+.project{
+  margin: 20rpx 20rpx;
+  width: 710rpx;
+  height: 400rpx;
+  background: #F2F1F1;
+  border-radius: 25rpx;
+}
+
+.project_img{
+  margin: 25rpx 0rpx 25rpx 25rpx;
+  width: 350rpx;
+  height: 350rpx;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+}
+.project_img2{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.list{
+  margin-top: 20rpx;
+  float: right;
+  width: 320rpx;
+  height: 350rpx
+}
+.Title{
+  display: flex;
+  align-items: center;
+}
+.text1{
+  font-size: 35rpx;
+  font-weight:600; 
+}
+.text2{
+  margin-left: 10rpx;
+  height: 180rpx;
+  color: #C5C3C4;
+  font-size: 30rpx;
+  width: 100%;
+  flex-wrap: trun;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space:pre-line;
+  display:block;
+
+}
+.text3{
+  font-size: 35rpx;
+  color: #1F82DC;
+  margin-left: 180rpx;
+}
+.Slash{
+  position:absolute; 
+}
+.Slash2{
+  position: relative;
+  top: 30rpx;
+  left: -10rpx;
+  color: #C5C3C4;
+  transform-origin: 50% 50%;
+  transform: rotate(160deg);
+}
+.text4{
+  font-size: 35rpx;
+  color: #1F82DC;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 50rpx;
+  left: 30rpx;
+}
+.text5{
+  z-index: 999;
+  position: relative;
+  bottom: 100rpx;
+  left: 400rpx;
+  line-height:60rpx; 
+  text-align:center;
+  font-size: 40rpx;
+  color: #F4D111;
+  height: 60rpx;
+  width: 100rpx;
+  border: 5rpx solid #F4D111;
+  border-radius: 14rpx;
+}

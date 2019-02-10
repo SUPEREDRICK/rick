@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/account/account",
+    "pages/details/details",
+    "pages/Telephone/Telephone",
+    "pages/Consultation/Consultation",
+    "pages/book/book"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E9BDC",
+    "navigationBarTitleText": "酷达影视传媒",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#DBDBDB",
+    "selectedColor": "#1E9BDC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/indexing.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "联系我们",
+        "iconPath": "images/Consultation.png",
+        "selectedIconPath": "images/Consultationing.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "会员专区",
+        "iconPath": "images/Telephone.png",
+        "selectedIconPath": "images/Telephoneing.png"
+      }
+    ],
+    "Denglu": [
+      {
+        "pagePath": "pages/details/details",
+        "text": "登录"
+      }
+    ]
+  }
+}

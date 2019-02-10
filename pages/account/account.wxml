@@ -1,0 +1,26 @@
+<!--account.wxml-->
+<view>
+  <!-- <view wx:if="{{canIUse}}">
+    <view class='header'>
+        <image src='../../images/wechat.png'></image>
+    </view>
+    <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+</view>
+<view wx:else>请升级微信版本</view> -->
+
+  <view class='banner'>
+     <open-data type="userAvatarUrl" class="headprotrait"></open-data>
+     <view class='score'>积分:</view>
+     <open-data type="userNickName" class="nickname"></open-data>
+  </view>
+  <view class='mybook' bindtap='mybook'>
+    <text>我的预约</text>
+  </view>
+  <view class='mybook'>
+    <text>意见反馈</text>
+  </view>
+  <view class='mybook'>
+    <text>联系客服</text>
+  </view>
+  <view class='copyright'>Powered by SUPERED®</view>
+</view>

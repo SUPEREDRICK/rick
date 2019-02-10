@@ -1,0 +1,66 @@
+.banner {
+  width: 100%;
+  height: 300rpx;
+  border-bottom: 1rpx solid rgb(231, 231, 231);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* not in used */
+.banner .head-protrait {
+  width: 152rpx;
+  height: 152rpx;
+  border: 1rpx solid rgb(231, 231, 231);
+  border-radius: 76rpx;
+}
+
+.headprotrait {
+  margin: 0 auto;
+  margin-top: 80rpx;  
+  display: flex;
+  /* justify-content: center; */
+  overflow: hidden;
+  width: 161rpx;
+  height: 161rpx;
+  border-radius: 50%;
+}
+
+.nickname {
+  font-size: 20rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+
+.score {
+  width: 160rpx;
+  height: 46rpx;
+  background-color: rgb(248, 58, 58);
+  float: right;
+  border-radius: 23rpx 0rpx 0rpx 23rpx;
+  margin-top: -190rpx;
+  font-size:25rpx;
+  text-align: center;
+  line-height: 46rpx;
+}
+
+.mybook {
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1rpx solid rgb(231, 231, 231);
+  line-height: 80rpx;
+}
+
+.mybook text {
+  font-size: 30rpx;
+  margin-left: 40rpx;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 420rpx;
+  font-size: 20rpx;
+  color: rgb(231, 231, 231);
+}

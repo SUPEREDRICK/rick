@@ -1,0 +1,25 @@
+<view>
+<button open-type='contact' session-from='weapp'>联系客服</button>
+  <view>
+    <image src='../../images/yy.png' class='makeanappointment' bindtap='ditiao3'></image>
+  </view>
+
+  <view wx:for="{{item}}">
+  <view class='project' bindtap='ditiao' data-id="{{item.prdno}}">
+    <image src='{{item.imgaddr}}' class='project_img'></image>
+    <view class='list'>
+      <view class='Title'>
+        <image class='project_img2' src='../../images/y.png'></image>
+        <text class='text1'>{{item.prdname}}</text>
+      </view>
+      <view class='text2'>{{item.prdsimcontent}}</view>
+      <view class='text3'>{{item.prdprice}}</view>
+      <view class='slash'>
+        <view class='Slash2'>______</view>
+      </view>
+      <view class='text4'>场景</view>
+    </view>
+    <view class='text5' catchtap='ditiao3'>预约</view>
+  </view>
+  </view>
+</view>

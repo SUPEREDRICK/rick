@@ -1,0 +1,32 @@
+<!--aboutme.wxml-->
+<view>
+  <!-- <view wx:for="{{typelist}}" :key="{{index}}">  
+    {{index}}{{item.prdtype}}
+ </view> -->
+  <view class="about">
+    <view class="about_head">
+      <image class='about_img' src="{{img}}" background-size="cover"></image>
+    </view>
+    <!-- <view class='project'> -->
+      <image src='http://i2.tiimg.com/650899/386698b9cfe08e5d.png' class='company_logo'></image>
+
+     <!-- 横向滑动列表 -->
+      <scroll-view scroll-x='true' class="scroll-x">
+        <view wx:for="{{typelist}}" wx:key="{{index}}" class="view-parent">
+          <view class="view-item" data-id="{{item.prdtype}}" bindtap='toprdlist'>{{item.prdtype}} </view>
+        </view>
+      </scroll-view>
+    <!-- </view> -->
+    
+    <!-- 以下进行测试 -->
+    <view wx:for="{{item}}">
+      <view class="{{item.index % 2 == 0 ? 'case_right':'case_left'}}">
+        <image src='{{item.imgaddr}}' class='caseimg' data-id="{{item.id}}" bindtap='bookinlist'></image>
+        <view class='case_name'>{{item.prdname}}</view>
+        <view class='case_book'>预约</view>
+        <view class='case_price'>{{index}}元/小时</view>
+      </view>
+    </view>
+    <!-- 以上进行测试 -->
+  </view>
+</view>
